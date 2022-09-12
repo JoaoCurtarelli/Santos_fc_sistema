@@ -1,0 +1,154 @@
+*{
+    background-color: black;
+    color:bisque ;
+
+}
+
+body{
+    min-height: 100vh;
+
+}
+
+.img1{
+    width: 17%;
+    height: 17%;
+    transform: scale(0.9);    
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+
+
+img:hover{
+    
+    transform: scale(1);    
+    transition: all ease 0.4s;
+
+}
+
+h1, h3{
+    text-align: center;
+}
+
+
+p {
+    text-align: center;
+    margin-bottom: 35px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: justify;
+    line-height: 25px;
+    
+
+}
+
+
+iframe{
+    border-radius: 15px;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 50px;
+}
+
+.container{
+    display: flex;
+    gap: 1rem;
+}
+
+.image{
+    flex-basis: 45%;
+}
+
+.video{
+    flex: 1;
+}
+
+.album_vila{
+    width: 30%;
+    height: auto;
+    transform: scale(0.9);    
+    margin-left: 10px;
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .8rem;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+h2{
+    text-align: center;
+
+}
+
+footer{
+    background: black;
+    color: rgb(255, 255, 255);
+    height: 8rem;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+header {
+    margin-top: 20px;
+    padding: 10px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    margin-left: 30px;
+}
+
+.itens {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    margin-right: 50px;
+}
+
+ul {
+    display: flex;
+    float: right;
+    list-style: none;
+    gap: .8rem;
+    align-items: center;
+    font-style: italic;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+img {
+    border-radius: 10px;
+    transform: scale(0.9);
+    display: block;
+    margin: 0px auto;
+}
+
+img:hover {
+
+    transform: scale(1);
+    transition: all ease 0.6s;
+
+}

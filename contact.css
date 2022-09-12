@@ -1,0 +1,112 @@
+*{
+    background-color: black;
+    color: bisque;
+}
+
+h2{
+    margin-bottom: 25px;
+    text-align: center
+}
+
+fieldset{
+    margin: 30px 35%;
+}
+
+
+
+input, textarea, button, label{
+    margin: 0px 0px 20px 10px;
+}
+
+textarea{
+    margin-top: 10px;
+    width: 250px;
+    height: 100px;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 35px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: justify;
+    line-height: 25px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+.itens {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    margin-right: 50px;
+}
+
+ul {
+    display: flex;
+    float: right;
+    list-style: none;
+    gap: .8rem;
+    align-items: center;
+    font-style: italic;
+
+}
+
+header {
+    margin-top: 20px;
+    padding: 10px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    margin-left: 30px;
+}
+
+footer{
+    background: black;
+    color: rgb(255, 255, 255);
+    height: 8rem;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.contact{
+    margin: 0px;
+    float: left;
+    margin-left: 160px;
+    color: white;
+}
+
+img {
+    border-radius: 10px;
+    transform: scale(0.9);
+    display: block;
+    margin: 0px auto;
+}
+
+img:hover {
+
+    transform: scale(1);
+    transition: all ease 0.6s;
+
+}
